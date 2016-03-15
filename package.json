@@ -1,0 +1,32 @@
+{
+  "name": "http-blob",
+  "version": "1.0.0",
+  "description": "serve blobs over http",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/http-blob.git"
+  },
+  "keywords": [
+    "http",
+    "blob",
+    "abstract-blob-store"
+  ],
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.os)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/http-blob/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/http-blob#readme",
+  "dependencies": {
+    "file-type": "^3.8.0",
+    "first-chunk-stream": "^2.0.0",
+    "server-router": "^1.1.4"
+  },
+  "devDependencies": {
+    "content-addressable-blob-store": "^4.3.0"
+  }
+}
